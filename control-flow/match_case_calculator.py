@@ -17,3 +17,5 @@ match operation:
             print("Cannot divide by zero")
         else:
             print("The result is ",result)
+    case "":
+        print("Invalid operation.")
