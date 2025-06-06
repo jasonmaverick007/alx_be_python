@@ -1,5 +1,5 @@
 def display_menu():
-    print("\nShopping list Manager")
+    print("Shopping list Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
@@ -28,7 +28,7 @@ def main():
                 print(f'"{item}" is not in the shopping list.')
         elif choice == '3':
             if shopping_list:
-                print("\nShopping list:")
+                print("Shopping list:")
                 for idx, item in enumerate(shopping_list, 1):
                     print(f"{idx}. {item}")
             else:
